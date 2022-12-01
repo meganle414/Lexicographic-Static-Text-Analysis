@@ -2,7 +2,6 @@ import string
 
 
 def main():
-    # initialize the arrays and other variables that will be used
     letters = list(string.ascii_uppercase)
 
     with open('bee-movie-script.txt', 'r') as f:
