@@ -1,5 +1,4 @@
 import string
-import sys
 
 
 def main():
@@ -28,7 +27,7 @@ def main():
 
         x = list(map(int, input("Number of letters A-Z (separated by spaces): ").split()))
         # sample number of letters A-Z, comment out later
-        x = [17, 29, 30, 42, 53, 39, 23, 24, 20, 98, 83, 28, 49, 31, 85, 50, 23, 52, 45, 37, 43, 57, 95, 84, 89, 32]
+        #x = [17, 29, 30, 42, 53, 39, 23, 24, 20, 98, 83, 28, 49, 31, 85, 50, 23, 52, 45, 37, 43, 57, 95, 84, 89, 32]
 
         while len(x) != 26:
             print("Incorrect number of letters! You have ", len(x), "letters!")
